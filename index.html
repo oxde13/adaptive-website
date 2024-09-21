@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Adaptive Website| Sergienko Yuliia</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+    @font-face {
+      font-family: "SofadiOne";
+      src: url("fonts/SofadiOne-Regular.ttf") format("truetype");
+      font-weight: normal;
+      font-style: normal;
+    }
+  </style>
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+</head>
+<body>
+<header class="header">
+<div class="header__logo">Logo</div>
+<nav class="header__nav">
+<ul class="header__list">
+<li class="header__item"><a class="header__link"
+href="#">Home</a></li>
+<li class="header__item"><a class="header__link"
+href="#">About</a></li>
+<li class="header__item"><a class="header__link"
+href="#">Contacts</a></li>
+</ul>
+</nav>
+</header>
+<main class="content">
+<section class="content__intro">
+<h1>Hello!</h1>
+<section class="content__image">
+    <img src="images/dog1.jpg" alt="dog Image"
+    class="image">
+    </section>
+    <div class='container'>
+        <div class='box box1'><img src="images/dog1.jpg"></div>
+        <div class='box box2'><img src="images/4dog3.jpg"></div>
+    </div>
+    <div class='centered-box'>
+         <class='box3'><img src="images/dog1.jpg"></div>
+        
+    </div>
+<p>My favorite animals</p>
+<h2>Dogs!</h2>
+<picture>
+    <source media="(max-width: 799px)" srcset="images/4dog3.jpg">
+    <source media="(min-width: 800px)" srcset="images/dog2.jpeg">
+    <img src="images/4dog3.jpg" alt="dog Image"
+    class="image__dog">
+</picture>
+</section>
+</main>
+<footer class="footer">
+<p>© 2024 Sergienko Yuliia</p>
+</footer>
+</body>
+</html>

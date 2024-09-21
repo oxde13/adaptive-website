@@ -1,0 +1,130 @@
+body {
+    font-family: 'SofadiOne', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    }
+    .header {
+    background-color: hsl(73, 87%, 48%);
+    color: rgb(18, 16, 16);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: relative;
+    z-index: 10;
+    }
+    .header__logo {
+        position: relative;
+        z-index: 2;
+    }    
+    .header__link {
+    color: hsl(249, 88%, 48%);
+    text-decoration: none;
+    margin-left: 20px;
+    display: flex;
+    }
+    .content {
+    padding: 20px;
+    display: flex;
+    align-items:center;
+    }
+    .image {
+        max-width: 100%;
+        height: auto;
+        display: flex;
+        align-items:center;
+        }
+        .image__dog {
+            max-width: 100%;
+            height: auto;
+            display: flex;
+            align-items:center;
+            }
+    .footer {
+    background-color: #333;
+    color: hsl(300, 94%, 47%);
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    }
+    @media (max-width: 768px) {
+        .header {
+        flex-direction: column;
+        }
+        .header__link {
+        margin: 10px 0;
+        }
+        .header__logo {
+              font-size: 1.6em;
+            }    
+        .image__dog {
+            max-width: 50%;
+            height: 30%;
+        }  
+        .image {
+            max-width: 50%;
+            height: 50%;
+            }       
+          }
+          
+          @media (max-width: 480px) {
+            .content__image {
+              width: 100%;
+            }
+          
+            .header {
+              flex-direction: column;
+            }
+          
+            .header__link {
+              margin: 10px;
+            }
+            .image__dog {
+                max-width: 150px;
+                height: 100px;
+            }
+            .image {
+                max-width: 150px;
+                height: 100px;
+                }   
+        }
+        .container {
+            position: relative;
+            height: 200px;
+          }
+          .box {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background-color: #f1f1f1;
+            border: 1px solid #ccc;
+          }
+          .box1 {
+            top: 20px;
+            left: 20px;
+            z-index: 2;
+          }
+          .box2 {
+            top: 50px;
+            left: 50px;
+            z-index: 3;
+          }
+          img{
+            height: 100%;
+          }
+        .centered-box {
+        width: 300px;
+        height: 300px;
+        background-color: #ccc;
+        margin: 0 auto;
+        overflow: hidden;
+        border: 1px solid hwb(0 13% 2%);
+        }
+        .box3 {
+           
+            display: flex;
+            margin: 0 auto;
+            }
+
+        
